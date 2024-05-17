@@ -6,19 +6,24 @@ export default function Home() {
     <body className="w-[100vw] h-[5049px] sm:w-[767px] sm:h-[5040px]">
       <main
         className="w-80 h-[5049px] relative bg-neutral-600 
-        sm:bg-gradient-to-b from-zinc-400 via-red-800 to-zinc-900 sm:w-[767px] sm:h-[5040px] 
+        sm:bg-gradient-to-b from-zinc-400 via-red-200 to-zinc-900 sm:w-[767px] sm:h-[5040px] 
         md:bg-zinc-700"
       >
         <div className="Frame125 w-52 h-11 relative ml-[16px] flex-col justify-start items-start inline-flex">
-          <div className="LoadOfPixel text-right text-orange-400 text-3xl font-bold ">
+          <div className="LoadOfPixel text-right text-zinc-400 text-3xl font-semi-bold ">
             Load of pixel
           </div>
-          <div className="Frame126 w-4 h-4 relative">
-            <div className="Group133 w-4 h-4 left-0 top-0 absolute border-white"></div>
-          </div>
-          <div className="Frame127 justify-center items-center inline-flex">
-            <div className="CloudAndWebDevelopment text-white text-xs font-normal font-['Open Sans'] leading-3">
-              cloud and web development
+          <div className="Frame126 w-5 h-5 relative">
+            <img
+              className="Group133 w-6 h-6 left-[226px] top-[-35px] absolute"
+              src="/orangeBrackets.svg"
+              alt="orange-brackets"
+            />
+
+            <div className=" w-[10.5rem] h-3 left-[96px] top-[-1rem] relative Frame127 justify-center items-start inline-flex">
+              <div className="CloudAndWebDevelopment text-white text-[7px] font-normal font-['Open Sans'] leading-3">
+                cloud and web development
+              </div>
             </div>
           </div>
         </div>
@@ -110,7 +115,7 @@ export default function Home() {
             </div>
             <div className="text-white text-[1rem] font-normal font-['Open Sans']">
               Using the power of Nodes.js i develop scalable and efficient
-              server-side applications. Using React and Next.js i build rebust
+              server-side applications. Using React and Next.js i build dynamic
               and responsive web applications providing seamless user
               experiences across various devices.
             </div>
