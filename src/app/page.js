@@ -3,45 +3,23 @@ import Image from "next/image";
 export default function Home() {
   return (
     // navbar section
-    <body className="w-80 h-[5049px] sm:w-[767px] sm:h-[5040px]">
+    <body className="w-[100vw] h-[5049px] sm:w-[767px] sm:h-[5040px]">
       <main
         className="w-80 h-[5049px] relative bg-neutral-600 
-        sm:bg-gradient-to-b from-blue-400 via-red-800 to-zinc-900 sm:w-[767px] sm:h-[5040px] 
+        sm:bg-gradient-to-b from-zinc-400 via-red-800 to-zinc-900 sm:w-[767px] sm:h-[5040px] 
         md:bg-zinc-700"
       >
-        <div
-          className="w-80 h-[52px] relative 
-                        sm:w-[767px] sm:h-[50px] sm:py-[7px] sm:flex-col sm:justify-start sm:items-start sm:gap-2.5 sm:inline-flex"
-        >
-          <div
-            className="w-80 h-[52px] left-0 top-0 absolute bg-neutral-800 border-b border-white
-                          sm:w-[767px] sm:bg-neutral-800"
-          />
-          <div
-            className="w-[36%] h-[25px] left-[33%] top-[13.77px] absolute
-                          sm:w-[200px] sm:h-[40px] sm:left-[1rem] sm:top-[10px]"
-          >
-            <div
-              className="left-0 top-0 absolute text-white text-opacity-90 text-lg font-normal font-['Open Sans']
-                          sm:text-[30px] sm:left-0 sm:text-white sm:font-bold sm:mb-10px"
-            >
-              load of pixels
-            </div>
-            <div
-              className="w-[84px] left-[84px] top-[27px] absolute text-white text-[5.50px] font-medium font-['Poppins']
-                            sm:w-[85px] sm:left-[118px] sm:top-[29px] sm:text-[7px]"
-            >
-              design and development
-            </div>
+        <div className="Frame125 w-52 h-11 relative ml-[16px] flex-col justify-start items-start inline-flex">
+          <div className="LoadOfPixel text-right text-orange-400 text-3xl font-bold ">
+            Load of pixel
           </div>
-
-          <div
-            className="left-[92%] top-[23%] absolute flex-col justify-start items-start gap-[3px] inline-flex
-                          sm:left-[96%]"
-          >
-            <div className="w-[18px] h-[1.91px] bg-white" />
-            <div className="w-[18px] h-[1.91px] bg-white" />
-            <div className="w-[18px] h-[1.91px] bg-white" />
+          <div className="Frame126 w-4 h-4 relative">
+            <div className="Group133 w-4 h-4 left-0 top-0 absolute border-white"></div>
+          </div>
+          <div className="Frame127 justify-center items-center inline-flex">
+            <div className="CloudAndWebDevelopment text-white text-xs font-normal font-['Open Sans'] leading-3">
+              cloud and web development
+            </div>
           </div>
         </div>
 
