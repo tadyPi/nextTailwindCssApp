@@ -5,26 +5,55 @@ export default function Home() {
     // navbar section
     <body className="w-[100vw] h-[5049px] sm:w-[767px] sm:h-[5040px]">
       <main
-        className="w-80 h-[5049px] relative bg-neutral-600 
+        className="w-80 h-[5049px] relative bg-zinc-700 
         sm:bg-gradient-to-b from-zinc-400 via-red-200 to-zinc-900 sm:w-[767px] sm:h-[5040px] 
         md:bg-zinc-700"
       >
-        <div className="Frame125 w-52 h-11 relative ml-[16px] flex-col justify-start items-start inline-flex">
-          <div className="LoadOfPixel text-right text-zinc-400 text-3xl font-semi-bold ">
-            Load of pixel
-          </div>
-          <div className="Frame126 w-5 h-5 relative">
-            <img
-              className="Group133 w-6 h-6 left-[226px] top-[-35px] absolute"
-              src="/orangeBrackets.svg"
-              alt="orange-brackets"
-            />
+        <div className="navBar w[100vw] border-b-1 border">
+          <div className="Frame125 w-52 h-11 relative ml-[16px] flex-col justify-start items-start inline-flex">
+            <div className="LoadOfPixel text-right text-zinc-400 text-3xl font-semi-bold ">
+              Load of pixel
+            </div>
+            <div className="Frame126 w-5 h-5 relative">
+              <img
+                className="Group133 w-6 h-6 left-[226px] top-[-35px] absolute"
+                src="/orangeBrackets.svg"
+                alt="orange-brackets"
+              />
 
-            <div className=" w-[10.5rem] h-3 left-[96px] top-[-1rem] relative Frame127 justify-center items-start inline-flex">
-              <div className="CloudAndWebDevelopment text-white text-[7px] font-normal font-['Open Sans'] leading-3">
-                cloud and web development
+              <div className=" w-[10.5rem] h-3 left-[96px] top-[-1rem] relative Frame127 justify-center items-start inline-flex">
+                <div className="CloudAndWebDevelopment text-white text-[7px] font-normal font-['Open Sans'] leading-3">
+                  cloud and web development
+                </div>
               </div>
             </div>
+          </div>
+
+          <div
+            className="burger-menu w-4 h-4 absolute right-[0.5rem] top-[0.5rem] border border-white border-opacity-90 rounded-[3px] justify-center items-center gap-2 inline-flex"
+            src="/burgerMenu.svg"
+            alt="Menu-icon"
+          ></div>
+
+          <div className="MobileSocial w-20 h-3.5 absolute top-[1.8rem] right-2 pb-px justify-center items-start gap-px inline-flex">
+            <div className="FollowUs w-10 text-neutral-200 text-[12px] font-medium font-['Poppins']">
+              Follow us
+            </div>
+            <div
+              className="Linkedin w-3 h-3 relative flex-col justify-start items-start flex border border-white border-opacity-90"
+              src="/linkedin.svg"
+              alt="Linkedin-icon"
+            />
+            <div
+              className="Github w-3 h-3 relative flex-col justify-start items-start flex border border-white border-opacity-90"
+              src="/github.svg"
+              alt="Github-icon"
+            />
+            <div
+              className="Microsoft w-3 h-3 relative flex-col justify-start items-start flex border border-white border-opacity-90"
+              src="/microsoft.svg"
+              alt="Microsoft-icon"
+            />
           </div>
         </div>
 
@@ -36,7 +65,7 @@ export default function Home() {
                             sm:w-[220px]"
             >
               <div
-                className="text-fuchsia-200 text-opacity-90 text-[28px] font-semibold font-['Open Sans']
+                className="text-orange-600 text-opacity-90 text-[28px] font-semibold font-['Open Sans']
                               sm:text-[32px]"
               >
                 Load of pixels
