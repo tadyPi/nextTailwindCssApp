@@ -11,7 +11,7 @@ export default function Home() {
       >
         <div className="navBar w[100vw] border-b-1 border">
           <div className="Frame125 w-52 h-11 relative ml-[16px] flex-col justify-start items-start inline-flex">
-            <div className="LoadOfPixel text-right text-zinc-400 text-3xl font-semi-bold ">
+            <div className="LoadOfPixel text-right text-zinc-200 text-3xl font-semi-bold ">
               Load of pixel
             </div>
             <div className="Frame126 w-5 h-5 relative">
