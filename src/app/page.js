@@ -3,21 +3,23 @@ import Image from "next/image";
 export default function Home() {
   return (
     // navbar section
-    <body className="w-[100vw] h-[5049px] sm:w-[767px] sm:h-[5040px]">
+    <body className="w-full min-h-screen sm:w-full md:w-full lg:w-full xl:w-full">
       <main
-        className="w-80 h-[5049px] relative bg-zinc-700 
-        sm:bg-gradient-to-b from-zinc-400 via-red-200 to-zinc-900 sm:w-[767px] sm:h-[5040px] 
-        md:bg-zinc-700"
+        className="w-full min-h-screen overflow-auto relative bg-zinc-900 
+        sm:bg-zinc-900 sm:w-full  
+        md:w-full md:bg-blue-500
+        lg:w-full lg:bg-zinc-200
+        xl:w-full xl:bg-red-400"
       >
         <div className="navBar w[100vw] border-b-1 border">
-          <div className="Frame125 w-52 h-11 relative ml-[16px] flex-col justify-start items-start inline-flex">
+          <div className="logoFrame w-52 h-11 relative ml-[16px] flex-col justify-start items-start inline-flex">
             <div className="LoadOfPixel text-right text-zinc-200 text-3xl font-semi-bold ">
               Load of pixel
             </div>
             <div className="Frame126 w-5 h-5 relative">
               <img
                 className="Group133 w-6 h-6 left-[226px] top-[-35px] absolute"
-                src="/orangeBrackets.svg"
+                src="/orange-brackets.svg"
                 alt="orange-brackets"
               />
 
@@ -31,7 +33,7 @@ export default function Home() {
 
           <div
             className="burger-menu w-4 h-4 absolute right-[0.5rem] top-[0.5rem] border border-white border-opacity-90 rounded-[3px] justify-center items-center gap-2 inline-flex"
-            src="/burgerMenu.svg"
+            src="/vector.svg"
             alt="Menu-icon"
           ></div>
 
@@ -39,18 +41,18 @@ export default function Home() {
             <div className="FollowUs w-10 text-neutral-200 text-[12px] font-medium font-['Poppins']">
               Follow us
             </div>
-            <div
-              className="Linkedin w-3 h-3 relative flex-col justify-start items-start flex border border-white border-opacity-90"
+            <img
+              className="Linkedin w-3 h-3 relative flex-col justify-start items-start flex border"
               src="/linkedin.svg"
               alt="Linkedin-icon"
             />
-            <div
-              className="Github w-3 h-3 relative flex-col justify-start items-start flex border border-white border-opacity-90"
+            <img
+              className="Github w-3 h-3 relative flex-col justify-start items-start flex border"
               src="/github.svg"
               alt="Github-icon"
             />
-            <div
-              className="Microsoft w-3 h-3 relative flex-col justify-start items-start flex border border-white border-opacity-90"
+            <img
+              className="Microsoft w-3 h-3 relative flex-col justify-start items-start flex border"
               src="/microsoft.svg"
               alt="Microsoft-icon"
             />
