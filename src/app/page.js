@@ -11,20 +11,40 @@ export default function Home() {
         lg:w-full lg:bg-green-500
         xl:w-full xl:bg-zinc-800"
       >
-        <div className="navBar w-[100vw] left-0 border-b border-white">
-          <div className="logoFrame w-[10.5rem] lg:w-64 h-11 lg:top-3 relative ml-[7px] flex-col justify-start items-start inline-flex">
-            <div className="LoadOfPixel text-left text-zinc-200 text-2xl lg:text-3xl font-semi-bold ">
+        <div
+          className="navBar w-[100vw] h-15 left-0 border-b border-white
+        xl:h-[70px]"
+        >
+          <div
+            className="logoFrame w-[10.5rem] mt-2 h-11 relative ml-2 flex-col justify-start items-start inline-flex
+          lg:w-64 lg:top-3
+          xl:w-72 xl:h-14 xl:top-0"
+          >
+            <div
+              className="LoadOfPixel text-left text-zinc-200 text-2xl font-semi-bold
+            lg:text-3xl "
+            >
               Load of pixel
             </div>
-            <div className="bracketOfSet w-4 h-4 lg:w-5 lg:h-5 relative">
+            <div
+              className="bracketOfSet w-4 h-4 relative
+            lg:w-5 lg:h-5"
+            >
               <img
-                className="bracketFrame w-6 h-6 left-[228px] top-[-34px] absolute"
+                className="bracketFrame w-6 h-6 left-[182px] top-[-34px] absolute
+                lg:left-[228px] lg:top-[-40.5px] lg:w-8 lg:h-8"
                 src="/orange-brackets.svg"
                 alt="orange-brackets"
               />
 
-              <div className=" w-[10.5rem] h-3 left-[57px] top-[-1.2rem] lg:left-[97px] lg:mt-3 relative justify-center items-start inline-flex">
-                <div className="CloudAndWebDevelopment text-white text-[5.8px] lg:text-[7px] font-normal font-['Open Sans'] leading-3">
+              <div
+                className=" w-[10.5rem] h-3 left-[57px] top-[-1.2rem] relative justify-center items-start inline-flex
+              lg:left-[97px] lg:mt-3"
+              >
+                <div
+                  className="CloudAndWebDevelopment text-white text-[5.8px] font-normal font-['Open Sans'] leading-3
+                lg:text-[7px]"
+                >
                   cloud and web development
                 </div>
               </div>
@@ -32,17 +52,22 @@ export default function Home() {
           </div>
 
           <div
-            className="burger-menu w-4 h-4 absolute right-[0.1rem] top-[0.3rem] border border-white border-opacity-90 rounded-[3px] justify-center items-center gap-2 inline-flex
+            className="burger-menu w-4 h-4 bg-cover absolute ml-[72px] top-[0.3rem] border border-white border-opacity-90 rounded-[3px] justify-center items-center gap-2 inline-flex
             xl:hidden"
             src="/vector.svg"
             alt="Menu-icon"
           ></div>
 
           <div
-            className="MobileSocial w-20 h-3.5 absolute top-[1.8rem] right-0 pb-px justify-center items-start gap-[2px] inline-flex
-          lg:right-8 lg:top-5 lg:w-40 lg:h-9 lg:pt-1 lg:justify-center lg:items-start lg:gap-1 lg:inline-flex"
+            className="MobileSocial w-20 h-3.5 absolute top-[1.6rem] right-[1px] justify-center items-start gap-[2px] inline-flex
+            sm:top-[1.6rem] sm: pb-px 
+            lg:right-8 lg:top-5 lg:w-40 lg:h-9 lg:pt-1 lg:justify-center lg:items-start lg:gap-1 lg:inline-flex
+            xl:right-[1rem]"
           >
-            <div className="FollowUs w-30 xl:w-40 text-neutral-200 text-[11px] left-1 xl:text-zinc-400 xl:text-[18px] font-medium font-['Poppins']">
+            <div
+              className="FollowUs w-30 relative text-neutral-200 text-[11px] left-1 font-medium font-['Poppins']
+            xl:w-40 xl:text-zinc-400 xl:text-[18px] xl:left-4"
+            >
               Follow us
             </div>
             <img
@@ -62,7 +87,10 @@ export default function Home() {
             />
           </div>
           {/* <!-- New navigation bar --> */}
-          <div className="flex justify-center items-center text-white relative top-[-42px]">
+          <div
+            className="flex justify-center items-center text-white relative top-[-42px]
+          xl:top-[-59px]"
+          >
             <ul className="hidden md:flex">
               <li className="mr-4">Home</li>
               <li className="mr-4">Web development</li>
@@ -74,7 +102,11 @@ export default function Home() {
         </div>
 
         {/* home section */}
-        <section className="lg:px-20 lg:py-10 lg:top-5 left-0 top-[-2.75rem] relative xl:mt-1 xl:ml-2">
+        <section
+          className="left-[-10px] top-[-3.75rem] relative 
+        lg:px-20 lg:py-10 lg:top-5
+        xl:mt-1 xl:ml-12 xl:pl:-7 xl:top-7"
+        >
           <div className="w-75 h-[134px] left-[1rem] top-[6rem] absolute flex-col justify-start items-start gap-4 inline-flex lg:relative lg:top-auto lg:left-auto lg:w-full lg:h-auto">
             <div className="w-[190px] h-[30px] justify-center items-center inline-flex sm:w-[220px] lg:w-auto lg:text-4xl">
               <div className="text-orange-500 text-opacity-90 text-[28px] font-semibold font-['Open Sans'] sm:text-[32px] lg:text-4xl">
@@ -82,7 +114,7 @@ export default function Home() {
               </div>
             </div>
             <div className="w-75 h-[88px] justify-center items-center inline-flex lg:w-auto lg:text-5xl lg:mt-6">
-              <div className="text-white text-[36px] font-bold font-['Poppins'] sm:text-white sm:text-[4rem] relative sm:top-[3rem] sm:font-semibold sm:font-['Inter'] lg:text-8xl xl:mb-6">
+              <div className="text-white text-[36px] font-bold font-['Poppins'] sm:text-white sm:text-[3.8rem] relative sm:top-[3rem] sm:font-semibold sm:font-['Inter'] lg:text-8xl xl:mb-6">
                 Web development
                 <br />
                 UX/UI design
@@ -90,8 +122,8 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="w-70 h-[172.55px] left-[1rem] top-[17rem] absolute flex-col justify-center items-start gap-[18.55px] inline-flex sm:w-[682px] sm:h-[241px] sm:relative sm:top-[14.5rem] lg:relative lg:top-16 lg:left-auto lg:w-full lg:h-auto lg:text-lg lg:mt-10">
-            <div className="text-white text-base font-normal font-['Open Sans'] lg:text-base">
+          <div className="w-70 h-[172.55px] left-[1rem] top-[17rem] absolute flex-col justify-center items-start gap-[18.55px] inline-flex sm:w-[640px] sm:h-[241px] sm:relative sm:top-[17.5rem] lg:relative lg:top-16 lg:left-auto lg:w-full lg:h-auto lg:text-lg lg:mt-10">
+            <div className="text-white sm:top-4 text-base font-normal font-['Open Sans'] lg:text-base">
               I specialize in utilizing a range of technologies to create
               dynamic and engaging websites.
             </div>
@@ -102,8 +134,13 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="w-[114px] h-8 absolute left-[60%] xl:left[76%] top-[30rem] xl:top-[4rem] px-1.5 py-1 bg-fuchsia-200 bg-opacity-90 rounded-[3px] justify-center items-center gap-2 inline-flex sm:w-[108.60px] sm:h-[36.60px] sm:left-[80%] sm:p-[8.80px] sm:bg-opacity-0 sm:rounded-sm sm:border sm:border-white sm:border-opacity-90 sm:justify-center sm:items-center sm:gap-[8.80px] sm:inline-flex lg:relative lg:top-auto lg:left-[82%] lg:w-auto lg:text-base lg:mt-10">
-            <div className="text-black text-xs font-semibold font-['Open Sans'] sm:text-white lg:text-base">
+          <div
+            className="w-[114px] h-8 absolute left-[60%] top-[30rem] px-1 py-1 bg-fuchsia-600 bg-opacity-90 rounded-[3px] justify-center items-center gap-2 inline-flex
+          sm:-[78%] sm:top[28rem] sm:w-[108.60px] sm:h-[36.60px] sm:left-[70%] sm:p-[8.80px] sm:bg-opacity-0 sm:rounded-sm sm:border sm:border-white sm:border-opacity-90 sm:justify-center sm:items-center sm:gap-[8.80px] sm:inline-flex
+          lg:relative lg:top-auto lg:left-[82%] lg:w-auto lg:text-base lg:mt-10
+          xl:left[76%] xl:top-[4rem]"
+          >
+            <div className="text-white text-xs font-semibold font-['Open Sans'] sm:text-white lg:text-base">
               Get in touch
             </div>
           </div>
@@ -111,13 +148,20 @@ export default function Home() {
 
         {/* web and cloud section */}
         <div>
-          <div className="w-[190px] h-[30px] justify-center items-center inline-flex sm:w-[220px] lg:w-auto lg:text-4xl left-[1rem] top-[32rem] absolute">
+          <div
+            className="w-[100%] h-[30px] left-[10px] top-[36rem] absolute justify-center items-center inline-flex 
+          sm:w-[220px] 
+          lg:w-auto lg:text-4xl"
+          >
             <div className="text-orange-500 text-opacity-90 text-[28px] font-semibold font-['Open Sans'] sm:text-[32px] lg:text-4xl">
               Web and Cloud Development
             </div>
           </div>
 
-          <div className="w-75 h-[88px] justify-center items-center inline-flex lg:w-auto lg:text-5xl lg:mt-6 left-[1rem] top-[35.5rem] absolute pr-[42px]">
+          <div
+            className="w-75 h-[88px] left-[10px] top-[39rem] absolute pr-[42px] justify-center items-center inline-flex 
+          lg:w-auto lg:text-5xl lg:mt-6 "
+          >
             <div className="text-white text-[36px] font-bold font-['Poppins'] sm:text-white sm:text-[4rem] relative sm:top-[3rem] sm:font-semibold sm:font-['Inter'] lg:text-8xl xl:mb-6">
               using AWS and
               <br />
@@ -126,30 +170,47 @@ export default function Home() {
           </div>
 
           <img
-            className="w-80 h-[248.57px] xl:w-[100%] xl:h-[350px] absolute left-[1rem] top-[41rem] rounded-[3px] border border-gray-300 max-w-[90%]
-    sm:w-[98%] sm:h-[328.12px] sm:absolute sm:left-[5%] mb-4 sm:rounded-[1.02px] sm:border sm:border-black-700 sm:border-opacity-90"
+            className="w-80 h-[248.57px] absolute left-[1rem] top-[41rem] rounded-[3px] mb-4 border border-gray-300 max-w-[90%]
+            sm:w-[98%] sm:h-[328.12px] sm:absolute sm:left-[5%] sm:rounded-[1.02px] sm:border sm:border-black-700 sm:border-opacity-90
+            xl:w-[100%] xl:h-[350px]"
             src="/cloud.jpg"
             alt="cloud-infrastructure"
           />
 
-          <div className="w-72 h-[172.55px] left-[1rem] top-[64rem] absolute flex-col justify-center items-start gap-[18.55px] inline-flex sm:w-[682px] sm:h-[241px] sm:relative sm:top-[14.5rem] lg:relative lg:top-16 lg:left-auto lg:w-full lg:h-auto lg:text-lg lg:mt-10">
-            <div className="text-white text-base font-normal font-['Open Sans'] lg:text-base">
+          <div
+            className="w-72 h-[172.55px] left-[1rem] top-[64rem] absolute flex-col justify-center items-start gap-[18.55px] inline-flex 
+          sm:w-[682px] sm:h-[241px] sm:relative sm:top-[14.5rem] 
+          lg:relative lg:top-16 lg:left-auto lg:w-full lg:h-auto lg:text-lg lg:mt-10"
+          >
+            <div className="text-white text-[16px] font-light font-['Open Sans'] lg:text-base">
               With knowledge of Amazon web services and Microsoft Azure i
               leverage the power of the cloud to manage and secure my clients
               infrastructure.
               <br />
               <br />
             </div>
-            <div className="text-white text-base font-normal font-['Open Sans'] lg:text-base">
+            <div
+              className="text-white text-base font-normal font-['Open Sans'] 
+            lg:text-base"
+            >
               Using the power of Nodes.js i develop scalable and efficient
               server-side applications. Using React and Next.js i build dynamic
-              and responsive web applications providing seamless user
-              experiences across various devices.
+              and responsive web <br />
+              applications providing seamless user experiences across various
+              devices.
             </div>
           </div>
 
-          <div className="w-[114px] h-8 absolute left-[60%] xl:left[76%] top-[75rem] px-1.5 py-1 bg-fuchsia-200 bg-opacity-90 rounded-[3px] justify-center items-center gap-2 inline-flex sm:w-[108.60px] sm:h-[36.60px] sm:left-[80%] sm:p-[8.80px] sm:bg-opacity-0 sm:rounded-sm sm:border sm:border-white sm:border-opacity-90 sm:justify-center sm:items-center sm:gap-[8.80px] sm:inline-flex lg:relative lg:top-auto lg:left-[82%] lg:w-auto lg:text-base lg:mt-10">
-            <div className="text-black text-xs font-semibold font-['Open Sans'] sm:text-white lg:text-base">
+          <div
+            className="w-[114px] h-8 absolute left-[60%] xl:left[76%] top-[75rem] px-1.5 py-1 bg-fuchsia-200 bg-opacity-90 rounded-[3px] justify-center items-center gap-2 inline-flex 
+          sm:w-[108.60px] sm:h-[36.60px] sm:left-[80%] sm:p-[8.80px] sm:bg-opacity-0 sm:rounded-sm sm:border sm:border-white sm:border-opacity-90 sm:justify-center sm:items-center sm:gap-[8.80px] sm:inline-flex 
+          lg:relative lg:top-auto lg:left-[82%] lg:w-auto lg:text-base lg:mt-10"
+          >
+            <div
+              className="text-black text-xs font-semibold font-['Open Sans'] 
+            sm:text-white 
+            lg:text-base"
+            >
               Get in touch
             </div>
           </div>
