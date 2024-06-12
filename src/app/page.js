@@ -12,11 +12,13 @@ export default function Home() {
         xl:w-full xl:bg-zinc-800"
       >
         <div
-          className="navBar w-[100vw] h-15 left-0 border-b border-white
-        xl:h-[70px]"
+          className="navBar w-[100vw] h-15 left-0 border-b border-zinc-500
+          sm:h-[50px]
+          md:h-[55px] 
+        xl:h-[60px]"
         >
           <div
-            className="logoFrame w-[10.5rem] mt-2 h-11 relative ml-2 flex-col justify-start items-start inline-flex
+            className="logoFrame w-[10.5rem] mt-[0.3rem] h-11 relative ml-2 flex-col justify-start items-start inline-flex
           lg:w-64 lg:top-3
           xl:w-72 xl:h-14 xl:top-0"
           >
@@ -53,6 +55,7 @@ export default function Home() {
 
           <div
             className="burger-menu w-4 h-4 bg-cover absolute ml-[72px] top-[0.3rem] border border-white border-opacity-90 rounded-[3px] justify-center items-center gap-2 inline-flex
+            sm:right-1 sm:w-4 sm:h-4
             xl:hidden"
             src="/vector.svg"
             alt="Menu-icon"
@@ -60,12 +63,13 @@ export default function Home() {
 
           <div
             className="MobileSocial w-20 h-3.5 absolute top-[1.6rem] right-[1px] justify-center items-start gap-[2px] inline-flex
-            sm:top-[1.6rem] sm: pb-px 
+            sm:top-[0.6rem] sm:right-[28px] sm:pb-px 
             lg:right-8 lg:top-5 lg:w-40 lg:h-9 lg:pt-1 lg:justify-center lg:items-start lg:gap-1 lg:inline-flex
-            xl:right-[1rem]"
+            xl:right-[1rem] xl:top-3"
           >
             <div
               className="FollowUs w-30 relative text-neutral-200 text-[11px] left-1 font-medium font-['Poppins']
+                sm:left-[-0.25rem]
             xl:w-40 xl:text-zinc-400 xl:text-[18px] xl:left-4"
             >
               Follow us
@@ -89,9 +93,15 @@ export default function Home() {
           {/* <!-- New navigation bar --> */}
           <div
             className="flex justify-center items-center text-white relative top-[-42px]
-          xl:top-[-59px]"
+            sm:top-[-36px] sm:justify-start sm:items-start
+          xl:top-[-59px] xl:justify-center xl:items-center xl:text-[32px]"
           >
-            <ul className="hidden md:flex">
+            <ul
+              className="hidden mt-1 
+              sm:flex sm:text-[12px] sm:relative sm:left-[11.7rem]
+              md:left-[12.7rem] md:text-[16px]
+            xl:text-[20px] xl:w-[100vw] xl:left-[31%]"
+            >
               <li className="mr-4">Home</li>
               <li className="mr-4">Web development</li>
               <li className="mr-4">UX/UI design</li>
@@ -153,7 +163,12 @@ export default function Home() {
           sm:w-[220px] 
           lg:w-auto lg:text-4xl"
           >
-            <div className="text-orange-500 text-opacity-90 text-[28px] font-semibold font-['Open Sans'] sm:text-[32px] lg:text-4xl">
+            <div
+              className="text-orange-500 text-opacity-90 text-[28px] font-semibold font-['Open Sans'] 
+            sm:text-[32px] 
+            lg:text-4xl
+            xl:top-2"
+            >
               Web and Cloud Development
             </div>
           </div>
@@ -172,7 +187,7 @@ export default function Home() {
           <img
             className="w-80 h-[248.57px] absolute left-[1rem] top-[41rem] rounded-[3px] mb-4 border border-gray-300 max-w-[90%]
             sm:w-[98%] sm:h-[328.12px] sm:absolute sm:left-[5%] sm:rounded-[1.02px] sm:border sm:border-black-700 sm:border-opacity-90
-            xl:w-[100%] xl:h-[350px]"
+            xl:w-[100%] xl:h-[350px] xl:top-[39rem]"
             src="/cloud.jpg"
             alt="cloud-infrastructure"
           />
@@ -180,9 +195,13 @@ export default function Home() {
           <div
             className="w-72 h-[172.55px] left-[1rem] top-[64rem] absolute flex-col justify-center items-start gap-[18.55px] inline-flex 
           sm:w-[682px] sm:h-[241px] sm:relative sm:top-[14.5rem] 
-          lg:relative lg:top-16 lg:left-auto lg:w-full lg:h-auto lg:text-lg lg:mt-10"
+          lg:relative lg:top-16 lg:left-auto lg:w-full lg:h-auto lg:text-lg lg:mt-10
+          xl:top-90"
           >
-            <div className="text-white text-[16px] font-light font-['Open Sans'] lg:text-base">
+            <div
+              className="text-white text-[16px] font-light font-['Open Sans'] 
+            lg:text-base"
+            >
               With knowledge of Amazon web services and Microsoft Azure i
               leverage the power of the cloud to manage and secure my clients
               infrastructure.
