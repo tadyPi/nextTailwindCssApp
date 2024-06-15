@@ -160,7 +160,7 @@ export default function Home() {
         <div>
           <div
             className="w-[100%] h-[30px] left-[10px] top-[36rem] absolute justify-center items-center inline-flex 
-          sm:w-[220px] 
+          sm:w-[450px] sm:top-[60rem] sm:justify-center sm:items-center sm:flex
           lg:w-auto lg:text-4xl"
           >
             <div
@@ -186,7 +186,7 @@ export default function Home() {
 
           <img
             className="w-80 h-[248.57px] absolute left-[1rem] top-[41rem] rounded-[3px] mb-4 border border-gray-300 max-w-[90%]
-            sm:w-[98%] sm:h-[328.12px] sm:absolute sm:left-[5%] sm:rounded-[1.02px] sm:border sm:border-black-700 sm:border-opacity-90
+            sm:w-[98%] sm:h-[328.12px] sm:absolute sm:left-[5%] sm:top-[34rem] sm:rounded-[1.02px] sm:border sm:border-black-700 sm:border-opacity-90
             xl:w-[100%] xl:h-[350px] xl:top-[39rem]"
             src="/cloud.jpg"
             alt="cloud-infrastructure"
@@ -194,7 +194,7 @@ export default function Home() {
 
           <div
             className="w-72 h-[172.55px] left-[1rem] top-[64rem] absolute flex-col justify-center items-start gap-[18.55px] inline-flex 
-          sm:w-[682px] sm:h-[241px] sm:relative sm:top-[14.5rem] 
+          sm:w-[682px] sm:h-[241px] sm:relative sm:top-[50rem] 
           lg:relative lg:top-16 lg:left-auto lg:w-full lg:h-auto lg:text-lg lg:mt-10
           xl:top-90"
           >
@@ -222,7 +222,7 @@ export default function Home() {
 
           <div
             className="w-[114px] h-8 absolute left-[60%] xl:left[76%] top-[75rem] px-1.5 py-1 bg-fuchsia-200 bg-opacity-90 rounded-[3px] justify-center items-center gap-2 inline-flex 
-          sm:w-[108.60px] sm:h-[36.60px] sm:left-[80%] sm:p-[8.80px] sm:bg-opacity-0 sm:rounded-sm sm:border sm:border-white sm:border-opacity-90 sm:justify-center sm:items-center sm:gap-[8.80px] sm:inline-flex 
+          sm:w-[108.60px] sm:h-[36.60px] sm:left-[78%] sm:p-[8.80px] sm:bg-opacity-0 sm:rounded-sm sm:border sm:border-white sm:border-opacity-90 sm:justify-center sm:items-center sm:gap-[8.80px] sm:inline-flex 
           lg:relative lg:top-auto lg:left-[82%] lg:w-auto lg:text-base lg:mt-10"
           >
             <div
