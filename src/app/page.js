@@ -1,4 +1,7 @@
-import Image from "next/image";
+// Component: Home
+// Description: This is the home page of the website.
+// It contains the navbar, home section, web and cloud section,
+// web design section, services section, and the footer section.
 
 export default function Home() {
   return (
