@@ -11,7 +11,7 @@ export default function Home() {
         className="w-full min-h-screen overflow-auto relative bg-zinc-600 
         sm:bg-zinc-900 sm:w-full  
         md:w-full md:bg-blue-500
-        lg:w-full lg:bg-green-500
+        lg:w-full lg:bg-red-500
         xl:w-full xl:bg-zinc-800"
       >
         <div
